@@ -1,17 +1,18 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Mission5.Models;
+// libraries/connection
 
 namespace Mission5.Controllers;
 
 public class HomeController : Controller
 {
-    public IActionResult Index()
+    public IActionResult Index() // index page
     {
         return View();
     }
 
-    public IActionResult Services()
+    public IActionResult Services() // services page
     {
         return View();
     }
